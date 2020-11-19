@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_import_json_BillboardData", "Integration Services Project1\SSIS_import_json_BillboardData.dtproj", "{CE39212B-18AE-46F0-A3D1-E100F810A8A5}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BillboardData_Storage", "Database1\BillboardData_Storage.sqlproj", "{37C65A36-8F14-4BCC-A5E0-44581D33259D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE39212B-18AE-46F0-A3D1-E100F810A8A5}.Debug|Any CPU.ActiveCfg = Development
+		{CE39212B-18AE-46F0-A3D1-E100F810A8A5}.Debug|Any CPU.Build.0 = Development
+		{CE39212B-18AE-46F0-A3D1-E100F810A8A5}.Development|Any CPU.ActiveCfg = Development
+		{CE39212B-18AE-46F0-A3D1-E100F810A8A5}.Development|Any CPU.Build.0 = Development
+		{CE39212B-18AE-46F0-A3D1-E100F810A8A5}.Release|Any CPU.ActiveCfg = Development
+		{CE39212B-18AE-46F0-A3D1-E100F810A8A5}.Release|Any CPU.Build.0 = Development
+		{37C65A36-8F14-4BCC-A5E0-44581D33259D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C65A36-8F14-4BCC-A5E0-44581D33259D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C65A36-8F14-4BCC-A5E0-44581D33259D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{37C65A36-8F14-4BCC-A5E0-44581D33259D}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C65A36-8F14-4BCC-A5E0-44581D33259D}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{37C65A36-8F14-4BCC-A5E0-44581D33259D}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{37C65A36-8F14-4BCC-A5E0-44581D33259D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C65A36-8F14-4BCC-A5E0-44581D33259D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C65A36-8F14-4BCC-A5E0-44581D33259D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {479F0818-58C8-439E-AF35-5BC65AA812E1}
+	EndGlobalSection
+EndGlobal
